@@ -1,0 +1,31 @@
+{
+  "name": "online-bookstore-api",
+  "version": "1.0.0",
+  "description": "A RESTful API built using **Node.js, Express, and MongoDB** for managing an online bookstore system.  \r This project allows users to perform full CRUD operations on books with search and pagination features.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "body-parser": "^2.3.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Syed-Mehran-Ahmad/Online-Bookstore-API.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Syed-Mehran-Ahmad/Online-Bookstore-API/issues"
+  },
+  "homepage": "https://github.com/Syed-Mehran-Ahmad/Online-Bookstore-API#readme"
+}
